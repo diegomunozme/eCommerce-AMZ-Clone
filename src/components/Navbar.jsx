@@ -3,11 +3,34 @@ import styledComponents from "styled-components";
 
 const Container = styledComponents.div`
     height: 60px;
-    background-color: black;
-    `
+`;
+const Wrapper = styledComponents.div`
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+`;
+
+const Left = styledComponents.div`
+flex: 1`;
+const Language = styledComponents.span`
+    font-size: 14px;
+    cursor: pointer;
+`;
+const Center = styledComponents.div`flex: 1`;
+const Right = styledComponents.div`flex: 1`;
 
 const Navbar = () => {
-  return <Container>Navbar</Container>;
+  return (
+    <Container>
+      <Wrapper>
+        <Left>
+          <Language>EN</Language>
+        </Left>
+        <Center>Center</Center>
+        <Right>Right</Right>
+      </Wrapper>
+    </Container>
+  );
 };
 
 export default Navbar;
