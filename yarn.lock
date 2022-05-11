@@ -1220,6 +1220,25 @@
   "resolved" "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz"
   "version" "1.4.0"
 
+"@emmetio/abbreviation@^2.2.3":
+  "integrity" "sha512-87pltuCPt99aL+y9xS6GPZ+Wmmyhll2WXH73gG/xpGcQ84DRnptBsI2r0BeIQ0EB/SQTOe2ANPqFqj3Rj5FOGA=="
+  "resolved" "https://registry.npmjs.org/@emmetio/abbreviation/-/abbreviation-2.2.3.tgz"
+  "version" "2.2.3"
+  dependencies:
+    "@emmetio/scanner" "^1.0.0"
+
+"@emmetio/css-abbreviation@^2.1.4":
+  "integrity" "sha512-qk9L60Y+uRtM5CPbB0y+QNl/1XKE09mSO+AhhSauIfr2YOx/ta3NJw2d8RtCFxgzHeRqFRr8jgyzThbu+MZ4Uw=="
+  "resolved" "https://registry.npmjs.org/@emmetio/css-abbreviation/-/css-abbreviation-2.1.4.tgz"
+  "version" "2.1.4"
+  dependencies:
+    "@emmetio/scanner" "^1.0.0"
+
+"@emmetio/scanner@^1.0.0":
+  "integrity" "sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA=="
+  "resolved" "https://registry.npmjs.org/@emmetio/scanner/-/scanner-1.0.0.tgz"
+  "version" "1.0.0"
+
 "@emotion/is-prop-valid@^1.1.0":
   "integrity" "sha512-3QnhqeL+WW88YjYbQL5gUIkthuMw7a0NGbZ7wfFVk2kg/CK5w8w5FFa0RzWjyY1+sujN0NWbtSHH6OJmWHtJpQ=="
   "resolved" "https://registry.npmjs.org/@emotion/is-prop-valid/-/is-prop-valid-1.1.2.tgz"
@@ -4087,6 +4106,14 @@
     "minimalistic-assert" "^1.0.1"
     "minimalistic-crypto-utils" "^1.0.1"
 
+"emmet@^2.3.0":
+  "integrity" "sha512-pLS4PBPDdxuUAmw7Me7+TcHbykTsBKN/S9XJbUOMFQrNv9MoshzyMFK/R57JBm94/6HSL4vHnDeEmxlC82NQ4A=="
+  "resolved" "https://registry.npmjs.org/emmet/-/emmet-2.3.6.tgz"
+  "version" "2.3.6"
+  dependencies:
+    "@emmetio/abbreviation" "^2.2.3"
+    "@emmetio/css-abbreviation" "^2.1.4"
+
 "emoji-regex@^6.5.1":
   "integrity" "sha512-PAHp6TxrCy7MGMFidro8uikr+zlJJKJ/Q6mm2ExZ7HwkyR9lSVFfE3kt36qcwa24BQL7y0G9axycGjK1A/0uNQ=="
   "resolved" "https://registry.npmjs.org/emoji-regex/-/emoji-regex-6.5.1.tgz"
@@ -6806,6 +6833,11 @@
   "integrity" "sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA=="
   "resolved" "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz"
   "version" "2.2.1"
+
+"jsonc-parser@^2.3.0":
+  "integrity" "sha512-H8jvkz1O50L3dMZCsLqiuB2tA7muqbSg1AtGEkN0leAqGjsUzDJir3Zwr02BhqdcITPg3ei3mZ+HjMocAknhhg=="
+  "resolved" "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-2.3.1.tgz"
+  "version" "2.3.1"
 
 "jsonfile@^4.0.0":
   "integrity" "sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss="
@@ -10733,6 +10765,22 @@
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
+"typescript-styled-plugin@^0.18.2":
+  "integrity" "sha512-eBs898Zz5C+k59ZydKVYBHjw4dC5WRxidOT7wfGkjLRZHKL6zIl6xkjIHMuctDE9hctxTq+GJcaXgk30lKEM9A=="
+  "resolved" "https://registry.npmjs.org/typescript-styled-plugin/-/typescript-styled-plugin-0.18.2.tgz"
+  "version" "0.18.2"
+  dependencies:
+    "typescript-template-language-service-decorator" "^2.2.0"
+    "vscode-css-languageservice" "^5.1.4"
+    "vscode-emmet-helper" "^2.6.4"
+    "vscode-languageserver-textdocument" "^1.0.1"
+    "vscode-languageserver-types" "^3.16.0"
+
+"typescript-template-language-service-decorator@^2.2.0":
+  "integrity" "sha512-+Q5+cvBtPO4VKNyyI6O+XnIne+/hq/WfNhBaF4hJP8nB8TbikTg+2h9uBMsqduwX1+kVfwG9SBSwMTtvi2Ep7w=="
+  "resolved" "https://registry.npmjs.org/typescript-template-language-service-decorator/-/typescript-template-language-service-decorator-2.3.1.tgz"
+  "version" "2.3.1"
+
 "uglify-es@^3.3.4":
   "integrity" "sha512-r+MU0rfv4L/0eeW3xZrd16t4NZfK8Ld4SWVglYBb7ez5uXFWHuVRs6xCTrf1yirs9a4j4Y27nn7SRfO6v67XsQ=="
   "resolved" "https://registry.npmjs.org/uglify-es/-/uglify-es-3.3.9.tgz"
@@ -10999,6 +11047,53 @@
   "integrity" "sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ=="
   "resolved" "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   "version" "1.1.2"
+
+"vscode-css-languageservice@^5.1.4":
+  "integrity" "sha512-DT7+7vfdT2HDNjDoXWtYJ0lVDdeDEdbMNdK4PKqUl2MS8g7PWt7J5G9B6k9lYox8nOfhCEjLnoNC3UKHHCR1lg=="
+  "resolved" "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.4.2.tgz"
+  "version" "5.4.2"
+  dependencies:
+    "vscode-languageserver-textdocument" "^1.0.4"
+    "vscode-languageserver-types" "^3.16.0"
+    "vscode-nls" "^5.0.0"
+    "vscode-uri" "^3.0.3"
+
+"vscode-emmet-helper@^2.6.4":
+  "integrity" "sha512-fP0nunW1RUWEKGf4gqiYLOVNFFGXSRHjCl0pikxtwCFlty8WwimM+RBJ5o0aIiwerrYD30HqeaVyvDW027Sseg=="
+  "resolved" "https://registry.npmjs.org/vscode-emmet-helper/-/vscode-emmet-helper-2.6.4.tgz"
+  "version" "2.6.4"
+  dependencies:
+    "emmet" "^2.3.0"
+    "jsonc-parser" "^2.3.0"
+    "vscode-languageserver-textdocument" "^1.0.1"
+    "vscode-languageserver-types" "^3.15.1"
+    "vscode-nls" "^5.0.0"
+    "vscode-uri" "^2.1.2"
+
+"vscode-languageserver-textdocument@^1.0.1", "vscode-languageserver-textdocument@^1.0.4":
+  "integrity" "sha512-/xhqXP/2A2RSs+J8JNXpiiNVvvNM0oTosNVmQnunlKvq9o4mupHOBAnnzH0lwIPKazXKvAKsVp1kr+H/K4lgoQ=="
+  "resolved" "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.4.tgz"
+  "version" "1.0.4"
+
+"vscode-languageserver-types@^3.15.1", "vscode-languageserver-types@^3.16.0":
+  "integrity" "sha512-ECJg27DKWEfkIUuNyjMydPsl5Lu7XX1xmwEpZ61I4oeK1qFNbfp3tSZUVmeMPPgnNjasd1rrb3on9jbSe5g3nQ=="
+  "resolved" "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.0.tgz"
+  "version" "3.17.0"
+
+"vscode-nls@^5.0.0":
+  "integrity" "sha512-hHQV6iig+M21lTdItKPkJAaWrxALQb/nqpVffakO4knJOh3DrU2SXOMzUzNgo1eADPzu3qSsJY1weCzvR52q9A=="
+  "resolved" "https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.0.1.tgz"
+  "version" "5.0.1"
+
+"vscode-uri@^2.1.2":
+  "integrity" "sha512-8TEXQxlldWAuIODdukIb+TR5s+9Ds40eSJrw+1iDDA9IFORPjMELarNQE3myz5XIkWWpdprmJjm1/SxMlWOC8A=="
+  "resolved" "https://registry.npmjs.org/vscode-uri/-/vscode-uri-2.1.2.tgz"
+  "version" "2.1.2"
+
+"vscode-uri@^3.0.3":
+  "integrity" "sha512-EcswR2S8bpR7fD0YPeS7r2xXExrScVMxg4MedACaWHEtx9ftCF/qHG1xGkolzTPcEmjTavCQgbVzHUIdTMzFGA=="
+  "resolved" "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.3.tgz"
+  "version" "3.0.3"
 
 "w3c-hr-time@^1.0.1", "w3c-hr-time@^1.0.2":
   "integrity" "sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ=="
