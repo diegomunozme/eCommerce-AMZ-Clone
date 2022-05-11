@@ -3,8 +3,8 @@ import styledComponents from "styled-components";
 
 const Container = styledComponents.div`
     height: 60px;
-    backgorund-color: black;
-    `;
+    background-color: black;
+    `
 
 const Navbar = () => {
   return <Container>Navbar</Container>;
