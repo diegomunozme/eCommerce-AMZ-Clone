@@ -1,6 +1,7 @@
 import React from "react";
 import styledComponents from "styled-components";
-import { Search } from "@material-ui/icons";
+import { Search, ShoppingCartOutlined } from "@material-ui/icons";
+import { Badge } from "@material-ui/core";
 
 const Container = styledComponents.div`
     height: 60px;
@@ -39,7 +40,18 @@ const Logo = styledComponents.h1`
   font-weight: bold;
   text-align:center;
 `
-const Right = styledComponents.div`flex: 1`;
+const Right = styledComponents.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end
+  `;
+
+const MenuItem = styledComponents.div`
+  font-size: 14px;
+  cursor:pointer;
+  margin-left: 25px;
+`
 
 const Navbar = () => {
   return (
@@ -49,13 +61,21 @@ const Navbar = () => {
           <Language>EN</Language>
           <SearchContainer>
             <Input/>
-            <Search/>
+            <Search style ={{color:"gray", fontSize:16 }}/>
           </SearchContainer>
         </Left>
         <Center>
           <Logo>Ecommerce</Logo>
         </Center>
-        <Right>Right</Right>
+        <Right>
+          <MenuItem>Sign In</MenuItem>
+          <MenuItem> Register</MenuItem>
+          <MenuItem>
+          <Badge badgeContent={4} color ="primary">
+          <ShoppingCartOutlined/>
+          </Badge>
+          </MenuItem>
+        </Right>
       </Wrapper>
     </Container>
   );
