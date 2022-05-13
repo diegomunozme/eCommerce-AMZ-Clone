@@ -65,7 +65,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Ecommerce</Logo>
+          <Logo> DIEGOS COLD BREW</Logo>
         </Center>
         <Right>
           <MenuItem>Sign In</MenuItem>
