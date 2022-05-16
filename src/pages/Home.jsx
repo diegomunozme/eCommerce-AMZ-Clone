@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Slider from "../components/Slider";
 import Announcements from "../components/Announcements";
-
+import Categories from "../components/Categories";
+import Products from "../components/Products";
 
 const Home = () => {
     return (
@@ -10,7 +11,8 @@ const Home = () => {
             <Announcements/>
             <Navbar/>
             <Slider/>
-            
+            <Categories/>
+            <Products/>
         </div>
     );
 };

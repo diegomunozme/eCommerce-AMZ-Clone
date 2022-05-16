@@ -2,7 +2,7 @@ export const sliderItems = [
     {
         id: 1,
         img: require("./images/c1.jpg"),
-        title: "Welcome to San Diegos newest cold brew distributor, Diego!!",
+        title: "San Diegos newest cold brew distributor, Diego!!",
         desc: "We make all our cold brew small batch by hand and with the option to customize each cup to your exact needs!",
         bg: "f5fafd",
     },
@@ -19,5 +19,41 @@ export const sliderItems = [
         title: "Delivery",
         desc: "All orders over $50 get free delivery as well!!",
         bg: "fcf1ed",
+    },
+]
+
+export const categories = [
+    {
+        id: 1,
+        img: require("./images/categoryColdBrew.jpg"),
+        title: "Classic Cold Brew",
+    },
+    {
+        id: 2,
+        img: require("./images/categoryNitroColdBrew.jpg"),
+        title: "Nitro Cold Brew",
+        
+    },
+    {
+        id: 3,
+        img: require("./images/categoryPuppuchino.jpg"),
+        title: "Puppchinos",
+        
+    },
+]
+
+export const popularProducts = [
+    {
+        id: 1,
+        img: require("./images/categoryColdBrew.jpg"),
+        
+    },
+    {
+        id: 2,
+        img: require("./images/categoryColdBrew.jpg"),
+    },
+    {
+        id: 3,
+        img: require("./images/categoryColdBrew.jpg"),
     },
 ]
