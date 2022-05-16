@@ -56,4 +56,26 @@ export const popularProducts = [
         id: 3,
         img: require("./images/categoryColdBrew.jpg"),
     },
+    {
+        id: 4,
+        img: require("./images/categoryColdBrew.jpg"),
+        
+    },
+    {
+        id: 5,
+        img: require("./images/categoryColdBrew.jpg"),
+    },
+    {
+        id: 6,
+        img: require("./images/categoryColdBrew.jpg"),
+    },
+    {
+        id: 7,
+        img: require("./images/categoryColdBrew.jpg"),
+        
+    },
+    {
+        id: 8,
+        img: require("./images/categoryColdBrew.jpg"),
+    }
 ]
